@@ -1,10 +1,3 @@
-/*
- * accelerometer.c
- *
- *  Created on: Aug 10, 2015
- *      Author: parkbeomchan
- */
-
 
 #include "Device/Sensor.h"
 #include "level.h"

@@ -1,6 +1,7 @@
 #delete
+res/level.png
 #add
+bin/level
 #modify
 author-signature.xml
 signature1.xml
-bin/level
