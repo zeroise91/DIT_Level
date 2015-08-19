@@ -41,12 +41,12 @@ static void acccallback(sensor_h sensor, sensor_event_s * event, void * user_dat
 
 void accelrometer_activate(appdata_s* ad){
 
-	Accelerometer accelerometer = accelerometer_get_instance();
+	ad->acc = accelerometer_get_instance();
 
-	if(accelerometer->isSupported(accelerometer))
+	if(ad->acc->isSupported(ad->acc))
 	{
-		accelerometer->addCallback(accelerometer,acccallback,ACCELEROMETER_PERIOD,ad);
-		accelerometer->On(accelerometer);
+		ad->acc->addCallback(ad->acc,acccallback,ACCELEROMETER_PERIOD,ad);
+		ad->acc->On(ad->acc);
 	}
 
 }

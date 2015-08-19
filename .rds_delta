@@ -1,15 +1,6 @@
 #delete
 #add
+#modify
 author-signature.xml
 signature1.xml
 bin/level
-lib/libstatlic.a
-res/Back_black.png
-res/ICON.png
-res/back_circle.png
-res/center.png
-res/guide.png
-shared/res/ICON.png
-shared/res/level.png
-tizen-manifest.xml
-#modify

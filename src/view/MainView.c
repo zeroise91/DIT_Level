@@ -113,13 +113,23 @@ app_control(app_control_h app_control, void *data)
 static void
 app_pause(void *data)
 {
+
+
 	/* Take necessary actions when application becomes invisible. */
+
+	appdata_s* ad =(appdata_s* )data;
+	ad->acc->Off(ad->acc);
+
 }
 
 static void
 app_resume(void *data)
 {
 	/* Take necessary actions when application becomes visible. */
+	appdata_s * ad = (appdata_s*)data;
+	ad->acc->On(ad->acc);
+
+
 }
 
 static void

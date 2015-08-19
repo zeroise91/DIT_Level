@@ -22,6 +22,7 @@
 #include <system_settings.h>
 #include <efl_extension.h>
 #include <dlog.h>
+#include "Device/Sensor.h"
 
 #ifdef  LOG_TAG
 #undef  LOG_TAG
@@ -48,6 +49,7 @@ typedef struct appdata {
 	Evas_Object *ball;
 	Evas_Object *guide;
 
+	Accelerometer acc;
 } appdata_s;
 
 
