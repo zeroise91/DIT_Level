@@ -1,6 +1,8 @@
 #delete
 #add
+bin/level
 #modify
 author-signature.xml
 signature1.xml
-bin/level
+lib/libstatlic.a
+tizen-manifest.xml
