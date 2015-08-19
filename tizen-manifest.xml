@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <manifest xmlns="http://tizen.org/ns/packages" api-version="2.3" package="org.tizen.level" version="1.0.0">
+    <author/>
     <profile name="mobile"/>
     <ui-application appid="org.tizen.level" exec="level" multiple="false" nodisplay="false" taskmanage="true" type="capp">
         <label>level</label>
         <icon>ICON.png</icon>
     </ui-application>
+    <feature name="http://tizen.org/feature/sensor.accelerometer">true</feature>
+    <feature name="http://tizen.org/feature/screen.size.normal.480.800">true</feature>
 </manifest>
